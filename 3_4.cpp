@@ -10,10 +10,10 @@ int main()
 	cout << endl;
 
 	for(int i = 0; i < w; i++) {
-		int poczatek = 1;
+		int liczba = 1;
 		for (int j = 0; j <= i; j++) {
-			cout << poczatek << " ";
-			poczatek = poczatek * (i - j) / (j + 1);
+			cout << liczba << " ";
+			liczba = liczba * (i - j) / (j + 1);
 		}
 		cout << endl;
 	}
